@@ -1,0 +1,49 @@
+/* h1{
+    color: rgb(10, 203, 32);
+    font-family: monospace;
+}
+
+#first{
+    color: rgb(238, 137, 5);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second{
+    color: rgb(220, 226, 220);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    background-color: aqua;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: blue;
+    display: flex;
+    
+}
+
+.first{
+    height:300px;
+    width: 150px;
+    background-color: rgb(136, 192, 52);
+
+}
+
+.sec{
+    height:300px;
+    width: 150px;
+    background-color: brown;
+    flex-direction: column;
+
+    align-items: center;
+}
+ */
+
