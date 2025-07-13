@@ -1,0 +1,73 @@
+html, body {
+
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.first{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    
+}
+
+.second{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(199, 116, 116);
+    /* margin: 5px 10px 7px 10px; */
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    /* top: 30px; */
+    
+}
+
+/* .third{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(147, 248, 147);          em parent se lega, rem root se.
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    padding: 15px 20px 15px 20px;
+} */
+
+.parent{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(116, 199, 199);
+    font-size: 10px;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(46, 92, 131);
+    top: 30px;
+    position: relative;
+    left: 100px;
+    font-size: 2em;
+}
+
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 0;
+    z-index: 30;
+}
+
+.two{
+    height: 50px;
+    width: 60px;
+    background-color: rgb(0, 255, 0);
+    position: absolute;
+    top: 10px;
+    
+    z-index:40;
+}
