@@ -1,0 +1,31 @@
+.bg_image{
+    background-image: url('https://images.unsplash.com/photo-1611651186486-415f04eb78e4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+}
+.parent{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid black;
+}
+.child2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 2px solid black;
+}
+
