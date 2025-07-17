@@ -1,0 +1,41 @@
+
+.container{
+    background-color: rgb(204, 219, 232);
+    height: 70%;
+    background-position: center;
+    width: 25%;
+    border: 3px solid yellowgreen;
+    align-items: center;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 70px;
+}
+
+h1{
+    font-size: 40px;
+}
+/* .log{
+    background-color: rgb(119, 119, 203);
+    border-radius: 50px;
+    color: white;
+}
+ */
+
+html, body{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.space{
+    display: flex;
+
+}
+
+.forgot{
+    margin-right: 30px;
+}
