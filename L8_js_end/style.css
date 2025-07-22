@@ -1,0 +1,25 @@
+/* .list{
+    border: solid black;
+}
+
+#list1{
+    background-color: aquamarine;
+
+}
+
+#list-id{
+    background-color: aqua;
+} */
+
+
+
+/* moveout */
+html,body{
+    background-color: bisque;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
