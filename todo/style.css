@@ -1,0 +1,36 @@
+
+.box{
+    background-color: aqua;
+    border-radius: 50px;
+    border: 15px solid blue;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 23%;
+    
+}
+
+.bg{
+    background-color: rgb(217, 141, 141);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+
+h1{
+    font-size: 50px;
+}
+
+#todo-input{
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    
+}
+#add-btn{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 50px;
+}
