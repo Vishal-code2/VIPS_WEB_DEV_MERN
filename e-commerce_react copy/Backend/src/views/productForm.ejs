@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/productForm.css">
+</head>
+<body>
+    <h1><u>Add new Products</u></h1>
+    <form action="/products/add" enctype="multipart/form-data" method="post">
+    <label for="title">Title</label><br>
+    <input type="text" placeholder="enter product title" name="title"><br><br>
+
+    <label for="image" >Image</label>
+    <input id ="img" type="file" name="image"><br><br>
+
+    <label for="description">Description</label><br>
+    <input type="description" placeholder="enter description" name="description"><br><br>
+
+    <label for="category">category</label><br>
+    <input type="category" placeholder="enter category" name="category"><br><br>
+
+    <label for="price">Price</label><br>
+    <input type="price" placeholder="enter price" name="price"><br><br>
+
+    <button id ="btn" type="submit">Submit</button>
+    
+</form>
+    <!-- <h1><% 4+4 %></h1> -->
+    <!-- <form action="/products/add" method="post"></form> -->
+</body>
+</html>
